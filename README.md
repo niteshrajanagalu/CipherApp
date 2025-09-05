@@ -2,7 +2,7 @@
 
 A comprehensive classical encryption suite built with Python, featuring multiple cipher algorithms and a user-friendly graphical interface.
 
-![Cipher Tool Banner](assets/Classical%20Encryption%20Suite%20Banner%20Gothic%20Font.png)
+![Cipher Tool Banner](DevAssets/Classical%20Encryption%20Suite%20Banner%20Gothic%20Font.png)
 
 ## ✨ Features
 
