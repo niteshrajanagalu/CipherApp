@@ -29,7 +29,8 @@ jobs:
         python -m py_compile src/embed_wordlist.py
     - name: Basic functionality test
       run: |
-        python src/embed_wordlist.py
-        if [ -f "src/cipher_decoder.py" ]; then
+        cd src
+        python embed_wordlist.py
+        if [ -f "cipher_decoder.py" ]; then
           echo "Files compiled successfully"
         fi
