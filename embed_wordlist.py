@@ -1,6 +1,6 @@
 # Save this as embed_wordlist.py and run it in your CipherApp folder
 
-def embed_wordlist(pyfile="cipher_decoder.py", wordfile="words.txt"):
+def embed_wordlist(pyfile="cipher_decoder.py", wordfile="assets/words.txt"):
     with open(wordfile, "r", encoding="utf-8") as wf:
         words = [w.strip().lower() for w in wf if w.strip()]
     wordlist_str = ' '.join(words)

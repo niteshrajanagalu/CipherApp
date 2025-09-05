@@ -26,7 +26,7 @@ except Exception:
 
 def load_english_words():
     words = set()
-    path = os.path.join(BASE_DIR, "words.txt")
+    path = os.path.join(BASE_DIR, "assets", "words.txt")
     try:
         with open(path, "r", encoding="utf-8", errors="ignore") as f:
             for line in f:
